@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.151);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  width: 90%;
+  border-radius: 20px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .weather-form {
+  padding: 0.5rem;
+}
+.container .weather-form #search {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.container .weather-container {
+  width: 80%;
+  padding: 0 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  color: white;
+}
+.container .weather-container .info {
+  margin-top: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .weather-container .info .name {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.container .weather-container .info .temperature {
+  display: flex;
+}
+.container .weather-container .info .temperature .temp-value {
+  font-size: 5rem;
+  line-height: 5rem;
+  flex-basis: 40%;
+  text-align: center;
+}
+.container .weather-container .info .temperature .temp-units {
+  flex-basis: 30%;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.container .weather-container .info .temperature .fill-space {
+  flex-basis: 30%;
+}
+.container .weather-container .info .weather-icon {
+  width: 100px;
+}
+.container .weather-container .info .weather-type {
+  font-size: 1rem;
+  line-height: 0rem;
+  margin-bottom: 2rem;
+}
+.container .weather-container .info .time {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.container .weather-container .info .wind {
+  margin-bottom: 2rem;
+}
+.container .weather-container .info .recommendation {
+  margin-bottom: 1.5rem;
+}
+.container .weather-container .info .recommendation .recommendation-title {
+  font-weight: 700;
+}
+.container .weather-container .info .recommendation .dino {
+  padding: 1rem;
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 30%;
+     object-position: 50% 30%;
+  border-radius: 50%;
+}
+.container .weather-container .not-found {
+  padding: 1rem 2rem 20rem 2rem;
+}/*# sourceMappingURL=styles.css.map */
