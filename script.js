@@ -40,7 +40,7 @@ function displayCity(data) {
     <div class="recommendation">
       <p class="recommendation-title">Dino's recommendation:</p>
       <p>${KToC(data.main.temp) > 25 ? "Be fresh" : "Wear sweater"}</p>
-      <img class="dino" src=${KToC(data.main.temp) > 25 ? "hot.JPG" : "cold.JPG"}>
+      <img class="dino" src=${KToC(data.main.temp) > 25 ? "https://github.com/IvanMendoza1616/weather-app/blob/main/hot.jpg" : "https://github.com/IvanMendoza1616/weather-app/blob/main/cold.jpg"}>
     </div>
   </div>
   `;
